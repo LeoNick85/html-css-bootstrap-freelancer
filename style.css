@@ -1,0 +1,76 @@
+.navbar {
+    background-color: rgb(49,62,79);
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav >li > a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: rgb(102,186,158);
+    color: white;
+}
+
+.jumbotron img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* .jumbotron p {
+    position: relative;
+    background-color: rgb(102,186,158);
+}
+
+.jumbotron i {
+    padding: 8px;
+    width: 20px;
+    background-color: rgb(102,186,158);
+}
+
+#star:after {
+    position: absolute;
+    content: "";
+     height: 4px;
+     width: 15%;
+     background-color: white;
+     margin-left: 25px;
+    top: 50%;
+    left: 40%;
+    border-radius: 2px;
+} */
+#star {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+#star:before,
+#star:after {
+  background-color: white;
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 120px;
+  top: 50%;
+  border-radius: 2px;
+}
+
+#star:before {
+  right: 45px;
+}
+
+#star:after {
+  left: 45px;
+
+}
+
+.jumbotron p {
+    margin-top: 20px;
+}
