@@ -204,6 +204,10 @@
     margin-bottom: 100px;
 }
 
+#contactme button:hover {
+    background-color: #09928b;
+}
+
 footer {
     background-color: rgb(49,62,79);
     color: white;
@@ -214,6 +218,10 @@ footer {
     font-weight: bold;
     font-size: 20px;
     margin-top: 80px;
+}
+
+footer a {
+    color: rgb(102,186,158);
 }
 
 footer .clearfix {
