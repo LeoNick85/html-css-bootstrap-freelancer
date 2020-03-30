@@ -1,58 +1,69 @@
+@media all and (min-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+}
+
 .navbar {
     background-color: rgb(49,62,79);
     margin-bottom: 0px;
+}
+
+.navbar-default {
+    border-radius: 0;
+    border: none;
 }
 
 .navbar-default .navbar-nav >li > a {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    padding: 40px 15px;
+}
+
+.navbar-toggle {
+    margin-top: 30px;
 }
 
 .navbar-default .navbar-brand {
     color: white;
     font-weight: bold;
+    font-size: 22px;
+    padding: 40px 15px 60px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: rgb(102,186,158);
+    background-color: #3d6791;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(102,186,158);
+    background-color: #3d6791;
 }
 
 .jumbotron {
     background-color: rgb(102,186,158);
     color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 .jumbotron img {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-/* .jumbotron p {
-    position: relative;
-    background-color: rgb(102,186,158);
-}
 
-.jumbotron i {
-    padding: 8px;
-    width: 20px;
-    background-color: rgb(102,186,158);
-}
-
-#star:after {
-    position: absolute;
-    content: "";
-     height: 4px;
-     width: 15%;
-     background-color: white;
-     margin-left: 25px;
-    top: 50%;
-    left: 40%;
-    border-radius: 2px;
-} */
-#star {
+.star {
+    display: inline-block;
     position: relative;
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-#star:before,
-#star:after {
+.star:before,
+.star:after {
   background-color: white;
   content: "";
   height: 3px;
@@ -62,15 +73,14 @@
   border-radius: 2px;
 }
 
-#star:before {
+.star:before {
   right: 45px;
 }
 
-#star:after {
+.star:after {
   left: 45px;
-
 }
 
 .jumbotron p {
-    margin-top: 20px;
+    padding-bottom: 40px;
 }
